@@ -77,7 +77,7 @@ def get_tuling123(text, userId):
 get_auto_reply = get_tuling123
 
 if __name__ == '__main__':
-    # text = '雷军 are you ok?'
-    # reply = get_auto_reply(text, 'WE')
-    # print(reply)
-    pass
+    text = '雷军 are you ok?'
+    reply = get_auto_reply(text, 'WE')
+    print(reply)
+    # pass

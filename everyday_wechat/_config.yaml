@@ -16,12 +16,15 @@ auto_reply_info:
   # 自动回复消息前缀（不需要则设置为空）
   auto_reply_prefix: ''
   # 自动回复消息后缀（不需要则设置为空）
-  auto_reply_suffix: '--自动回复'
+  auto_reply_suffix: '--来自亲爱的回复'
 
   # 白名单，is_auto_reply_all: False 生效。此名单的用户才可自动回复。（填：文件传输助手，可回复自己，测试效果）
   auto_reply_white_list:
-    - '诗风'
     - '文件传输助手'
+    - '小可爱'
+    - '长约小分队'
+    - '京颐总经办'
+    - 'topsion'
 
   # 黑名单，is_auto_reply_all:True 生效。此名单不会自动回复。
   auto_reply_black_list:
@@ -71,7 +74,7 @@ alarm_info:
     #女友微信昵称或者备注名，不能输入微信号。（如填：文件传输助手，发消息到文件传输助手，测试效果）
     - wechat_name:
         - '文件传输助手'
-        - '诗风'
+        - '小可爱'
       # 注意：必须要把需要的群聊保存到通讯录
       group_name: # 群聊的名称
         - '萌萌哒'
@@ -124,16 +127,15 @@ group_helper_conf:
   group_name_white_list:
     - '蕉群'
     - '群机器人测试群'
-    - '小号测试群'
-    - 'EverydayWechat 交流1群'
-    - 'EverydayWechat 交流2群'
+    - '长约小分队'
+    - '京颐总经办'
 
   # 黑名单用户。当 is_all ：True 。这个群里的用户不受影响。
   group_name_black_list:
     - 'EverydayWechat 交流1群'
     - 'EverydayWechat 交流2群'
 
-  is_at: True # 艾特标记。只有当别人艾特机器人，才会处理消息（慎重关闭！）
+  is_at: False # 艾特标记。只有当别人艾特机器人，才会处理消息（慎重关闭！）
   is_auto_reply: True # 开启群自动回复（慎重开启！）
   is_weather: True # 是否开启天气查询
   is_calendar: True # 是否开启万历年查询
